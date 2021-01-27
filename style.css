@@ -1,0 +1,114 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #1f2235;
+  font-family: "Baloo Tamma 2", cursive;
+}
+
+.m-heading {
+  font-family: "Roboto Slab", serif;
+}
+
+.navigation-link {
+  border: 2px solid transparent;
+}
+
+.navigation-link:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #f5ba09;
+  transition: 0.5s ease;
+}
+
+.main-container {
+  height: 100vh;
+}
+
+.main_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_row h1 {
+  font-size: 5rem;
+}
+
+.main_row img {
+  width: auto;
+  height: 100vh;
+}
+
+.about {
+  background: #313552;
+  border-radius: 0.5rem;
+}
+
+.card {
+  border-bottom: 8px solid #f5ba09;
+}
+
+#social-media {
+  background: #313552;
+}
+
+
+/* #Resume */
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #45505b;
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #0563bb;
+  position: relative;
+}
+
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #0563bb;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: #f7f8f9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #0563bb;
+}
